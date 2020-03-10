@@ -1,0 +1,17 @@
+1. Ucitati Bitcoin istorijske vrednosti. 
+
+2. Proveriti da li su datumi ucitani korektno. 
+Nacrtati grafik promene istorijske vrednosti cene u koloni weighted_price. 
+
+3. Za svaku godinu pronaci maksimalne i minimalne vrednosti koje su dostignute. Ispisati datume kada su ove vrednosti ostvarene. 
+
+4. Nacrtati autokorelacionu funkciju. Da li se uocava neka vremenska zavisnost medju istorijskim vrednostima? 
+
+5. Primeniti "resistance model" na bitcoin vrednosti, a gresku ovog modela izracunati za poslednjih godinu dana. Potrebno je izracunati RMSE za poslednju godinu uporedjivanjem stvarnih vrednosti i predvidjenih vrednosti modela. 
+
+6. Iscrtati vrednosti greske predikcije za poslednju godinu. Greska predikcije se dobija kada se od stvarnih vrednosti oduzme vektor predvidjenih vrednosti. 
+za vektor greske nacrtati histogram. 
+Za vektor greske nacrtati autokorelacionu funkciju. 
+
+7. Dekomponovati bitcoin vrednosti koristeci komandu seasonal_decompose. Koje parametre biste predlozili u naredbi seasonal_decompose().
+
